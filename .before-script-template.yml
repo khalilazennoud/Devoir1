@@ -1,0 +1,5 @@
+.build:
+  stage: build
+  image: python
+  script:
+      - python ./script.py
